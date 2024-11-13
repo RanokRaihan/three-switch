@@ -1,0 +1,124 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.heading h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #5a5a5a;
+}
+
+.switch-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.switch {
+  position: relative;
+  border: none;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  border-radius: 34px;
+  background-color: #ccc;
+}
+
+.switch div {
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  transition: all 0.3s;
+}
+
+.switch-on {
+  background-color: #5ed100;
+}
+
+.switch-on div {
+  left: 100%;
+  transform: translate(-115%, -50%);
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #006cf0;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  cursor: not-allowed;
+}
