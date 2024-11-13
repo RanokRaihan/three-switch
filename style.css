@@ -82,6 +82,7 @@ main {
   height: 34px;
   border-radius: 34px;
   background-color: #ccc;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .switch div {
